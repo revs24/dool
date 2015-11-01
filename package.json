@@ -1,0 +1,48 @@
+{
+  "name": "dool-build",
+  "version": "0.1.0",
+  "author": "Revti",
+  "private": true,
+  "dependencies": {
+    "babel": "5.8.23",
+    "babelify": "6.3.0",
+    "bluebird": "2.9.34",
+    "browserify": "11.0.1",
+    "browserify-shim": "^3.8.10",
+    "event-stream": "3.3.1",
+    "gulp": "3.9.0",
+    "gulp-babel": "5.1.0",
+    "gulp-cached": "1.1.0",
+    "gulp-concat": "2.4.2",
+    "gulp-eslint": "0.9.0",
+    "gulp-jshint": "1.9.0",
+    "gulp-minify-css": "0.5.1",
+    "gulp-mocha": "2.0.1",
+    "gulp-param": "0.6.3",
+    "gulp-rename": "1.2.0",
+    "gulp-replace": "0.5.3",
+    "gulp-revert-path": "1.0.0",
+    "gulp-sass": "2.0.4",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-uglify": "1.4.2",
+    "gulp-util": "^3.0.1",
+    "hoganify": "0.2.0",
+    "ioredis": "1.9.0",
+    "lodash": "3.9.2",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0",
+    "vinyl-transform": "1.0.0",
+    "watchify": "2.6.2",
+    "webpack": "1.12.2"
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "selectize": "global:Selectize",
+    "lodash": "global:_"
+  },
+  "devDependencies": {
+    "jsdom": "6.3.0",
+    "react-tools": "0.13.3",
+    "yargs": "3.27.0"
+  }
+}
