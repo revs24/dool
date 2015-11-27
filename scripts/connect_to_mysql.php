@@ -1,12 +1,12 @@
 <?php
 
-$db_host = "dooldbinstance.c1vgzhdykvk9.us-west-2.rds.amazonaws.com"; 
+$db_host = "localhost"; 
 
 $db_username = "revs"; 
 
-$db_pass = "Cyclotron_24"; 
+$db_pass = "cyclotron"; 
 
-$db_name = "dool"; 
+$db_name = "DOOL"; 
 
 
 $conn = new mysqli("$db_host" , "$db_username" , "$db_pass" , "$db_name");
