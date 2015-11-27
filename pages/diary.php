@@ -77,9 +77,10 @@
 						</div>
 					</div>
 					<div class="row">
-					<div class="col-md-4"></div>
-					<div class="col-md-5 is-uploaded">
-						<label id="is-uploaded"></label>
+						<div class="col-md-4"></div>
+						<div class="col-md-5 is-uploaded">
+							<label id="is-uploaded"></label>
+						</div>
 					</div>
 				</div>
 				</div>
