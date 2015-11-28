@@ -19,8 +19,8 @@
     	$category = ucfirst($category);
 		$subCategory = ucfirst($subCategory);
 		$line = ucfirst($line);
-		$line = mysql_real_escape_string($line);
-    	$sql = mysqli_query($conn,"INSERT INTO tutorials (category, sub_category, data) VALUES ('$category', '$subCategory', '$line')");
-    }
+		$line = mysqli_real_escape_string($conn, $line);
+    	$sql = mysqli_query($conn,"INSERT INTO tutorials (category, sub_category, data) VALUES ('$category', '$subCategory', '$line')");   
+ }
     echo "Done";
 ?>
